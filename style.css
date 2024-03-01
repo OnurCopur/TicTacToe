@@ -1,0 +1,52 @@
+body {
+    background-color: #323232;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#content {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height:100px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+table td {
+    border: 5px solid white;
+}
+
+/* Stilregeln für die äußeren Zellen */
+td:first-child {
+    border-left: none;
+}
+td:last-child {
+    border-right: none;
+}
+tr:first-child td {
+    border-top: none;
+}
+tr:last-child td {
+    border-bottom: none;
+}
+
+table {
+    border: 0; /* Kein äußerer Rahmen für die Tabelle */
+}
+
